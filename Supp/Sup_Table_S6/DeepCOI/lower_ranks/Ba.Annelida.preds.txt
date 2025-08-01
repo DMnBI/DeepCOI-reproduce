@@ -1,0 +1,1 @@
+GBBAC1957-15	class	Polychaeta	0.9968	order	Sabellida	0.8608	family	Serpulidae	0.0173	genus	Pomatoceros	0.0262	species	Aporrectodea trapezoides	0.0515

@@ -1,0 +1,2 @@
+CRBOF7827-23	class	Insecta	1.0000	order	Hymenoptera	0.3817	family	Silvanidae	0.0010	genus	Aname	0.0029	species	Pterostichus adoxus	0.0037
+CIOSA14383-23	class	Insecta	1.0000	order	Hymenoptera	1.0000	family	Ichneumonidae	0.0002	genus	Cubus	0.0012	species	Cubus curtsabrowskyi	0.0131

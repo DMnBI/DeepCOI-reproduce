@@ -1,0 +1,2 @@
+GBBAC894-15	class	Aves	0.9922	order	Galliformes	0.3096	family	Phasianidae	0.1257	genus	Columba	0.2302	species	Gallus gallus	0.0841
+GBBAC046-15	class	Actinopterygii	0.6355	order	Galliformes	0.1323	family	Scorpaenidae	0.3341	genus	Sebastiscus	0.2968	species	Sebastiscus marmoratus	0.3012

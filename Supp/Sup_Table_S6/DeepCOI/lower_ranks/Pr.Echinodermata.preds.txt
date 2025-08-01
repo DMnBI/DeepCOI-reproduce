@@ -1,0 +1,2 @@
+GBBAC5636-15	class	Asteroidea	0.9628	order	Valvatida	0.1405	family	Goniasteridae	0.0015	genus	Ophiactis	0.0058	species	Ophiactis abyssicola	0.0019
+GBBAC6352-15	class	Asteroidea	0.9313	order	Amphilepidida	0.5028	family	Ophiactidae	0.0176	genus	Ophiactis	0.0108	species	Ophiactis abyssicola	0.0179

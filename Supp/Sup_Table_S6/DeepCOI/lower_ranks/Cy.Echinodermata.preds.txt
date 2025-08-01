@@ -1,0 +1,1 @@
+GBBAC2340-15	class	Ophiuroidea	0.0278	order	Forcipulatida	0.0030	family	Ophiactidae	0.0040	genus	Ophiopholis	0.0020	species	Notocrinus virilis	0.0038

@@ -1,0 +1,3 @@
+GBBAC3073-15	class	Asteroidea	0.2894	order	Amphilepidida	0.0194	family	Ophiactidae	0.0053	genus	Ophiactis	0.0060	species	Ophiactis abyssicola	0.0082
+GBBAC3075-15	class	Asteroidea	0.2894	order	Amphilepidida	0.0194	family	Ophiactidae	0.0053	genus	Ophiactis	0.0060	species	Ophiactis abyssicola	0.0082
+GBBAC3077-15	class	Asteroidea	0.2894	order	Amphilepidida	0.0194	family	Ophiactidae	0.0053	genus	Ophiactis	0.0060	species	Ophiactis abyssicola	0.0082

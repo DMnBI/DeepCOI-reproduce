@@ -1,0 +1,2 @@
+GBBAC1481-15	class	Gastropoda	0.9915	order	Pteropoda	0.2791	family	Limacinidae	0.2220	genus	Limacina	0.2028	species	Limacina bulimoides	0.0307
+GBBAC1519-15	class	Gastropoda	0.9918	order	Ostreida	0.0038	family	Limacinidae	0.0253	genus	Limacina	0.0352	species	Limacina bulimoides	0.1873
