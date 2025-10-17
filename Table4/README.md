@@ -24,7 +24,13 @@ You should edit the following shell script as replacing DeepCOI installed path.
 ```
 bash ../scripts/Table4/auto_DeepCOI_pred.sh
 ```
-The above script will run `DeepCOI` for `../data/realworld/DS-PBBC{1..4}.fasta` files against fine-tuned models.
+The above script will run `DeepCOI` for `../data/realworld/DS-PBBC{1..4}.fasta` files against fine-tuned models.  
+
+### 2. Summarize DeepCOI results
+```
+python ../scripts/Table4/summary_DeepCOI.py
+```
+The above script will generate `DeepCOI/DeepCOI.summary.csv` and `DeepCOI/DeepCOI.no_mcm.summary.csv`
 
 ## How to reproduce BLAST results
 `BLAST 2.16.0+` was used for this study.  
@@ -37,12 +43,6 @@ python ../scripts/Table4/makeblastdb.py
 ```
 The above script will generate `Arthropoda_woDS-PBBC.train.fasta` by filtering sequences according to their sequence ID. This file is the sample file that was used for training DeepCOI and RDP classifier.  
 Then, makeblastdb command is also automatically run within the above script.  
-
-### 2. Summarize BLAST results
-```
-python ../scripts/Table4/summary_DeepCOI.py
-```
-The above script will generate `DeepCOI/DeepCOI.summary.csv` and `DeepCOI/DeepCOI.no_mcm.summary.csv`
 
 ### 2. BLAST search
 ```
