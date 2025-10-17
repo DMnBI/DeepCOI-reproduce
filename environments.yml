@@ -1,0 +1,18 @@
+name: deepcoi
+channels:
+  - conda-forge
+  - bioconda
+  - pytorch
+  - huggingface
+dependencies:
+  - python=3.8
+  - cudatoolkit=11.3
+  - pytorch=1.12
+  - transformers
+  - datasets
+  - pytorch-lightning
+  - scikit-learn
+  - scipy
+  - biopython
+  - torchinfo
+  - fair-esm==2.0.0
