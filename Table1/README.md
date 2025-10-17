@@ -10,7 +10,7 @@ models/
 ├ DeepCOI\-{eight phyla}.pt  
 
 > [!NOTE]  
-> For DeepCOI models, you have to copy or soft link "../Supp/Sup_Fig_S2/t6-320.{eight phyla}.pt"
+> For DeepCOI models, you have to copy or soft link "../Supp/Sup_Fig_S1/t6-320.{eight phyla}.pt"
 
 ## run predictions
 run `auto_pred.sh` for conducting predictions. This script will generate {onehot,random,end\_to\_end,DeepCOI}.{eight phyla}.test.npy files

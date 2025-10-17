@@ -31,7 +31,7 @@ models/
 │├ convolutional\_attention.{eight phyla}.pt    
 
 > [!NOTE]  
-> For 1D-CNN/max... models, you have to copy or soft link "../Supp/Sup_Fig_S2/t6-320.{eight phyla}.pt"
+> For 1D-CNN/max... models, you have to copy or soft link "../Supp/Sup_Fig_S1/t6-320.{eight phyla}.pt"
 
 ## run predictions
 run `auto_pred.sh` for conducting predictions. This script will generate  {no_network,1D-CNN,GRU,1D-CNN\_GRU}/{mean,max,cls\_token,convolutional\_attention}.{eight phyla}.test.npy files

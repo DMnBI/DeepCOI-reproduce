@@ -48,6 +48,8 @@ python ../../scripts/Figure3/get_DeepCOI_score.py
 ```
 The above script will generate `DeepCOI.scores.csv`, `DeepCOI-included.scores.csv`, `DeepCOI-excluded.scores.csv` automatically.  
 It will take several hours to several days according to your computational power.  
+
+> [!NOTE]  
 > Arthropoda and Chordata especially take long time to compute due to their data size.
 
 ## How to reproduce BLAST results
@@ -73,6 +75,8 @@ python ../../scripts/Figure3/get_BLAST_score.py
 ```
 The above script will generate `BLAST.scores.csv`, `BLAST.scores.included.csv`, `BLAST.scores.excluded.csv` automatically.  
 It will take several hours to several days according to your computational power.  
+
+> [!NOTE]  
 > Arthropoda and Chordata especially take long time to compute due to their data size.
 
 ## How to reproduce RDP results
@@ -94,6 +98,8 @@ python ../../scripts/Figure3/get_RDP_score.py
 ```
 The above script will generate `RDP.scores.csv`, `RDP.scores.included.csv`, `RDP.scores.excluded.csv` automatically.  
 It will take several hours to several days according to your computational power.  
+
+> [!NOTE]  
 > Arthropoda and Chordata especially take long time to compute due to their data size.  
 
 ## Concatenate results for excluded species
