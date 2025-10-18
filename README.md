@@ -50,4 +50,29 @@ We highly recommend placing the downloaded file in the proper directory structur
 ├ scripts/  (scripts used to parse data for tables)  
 ├ notebooks/  
 ├ Supp/  
-├ ├ ...
+├ ├ ...  
+
+## Download raw records from BOLD systems
+We collected the raw records from the BOLD systems v4 [https://v4.boldsystems.org](https://v4.boldsystems.org) on Aug 22, 2022. If you need the raw records, you can download using the following script or instruction.  
+
+> [!NOTE]  
+> BOLD systems has now been updated to v5.  
+> The following script/instruction can download records currently available in BOLD systems
+
+### 1. Using download script
+
+Run the following script in `DeepCOI-reproduce/data/` directory.
+
+```
+python ../scripts/download_raw.py {phylum what you want to download}
+
+[example]
+python ../scripts/download_raw.py Annelida
+```
+This script will generate `{phylum}.raw.tsv` file.
+
+### 2. From data portal
+You can visit data portal [https://portal.boldsystems.org/](https://portal.boldsystems.org/). To download raw records, you are going to search target phylum (or target specimem) and click the `tsv` button. `results.tsv` file will be downloaded into your Download directory.  
+
+> [!NOTE]  
+> This instruction is no longer allowed for large datasets (such as Arthropoda) in BOLDsystems v5.
