@@ -4,7 +4,7 @@ import multiprocessing as mp
 from tqdm import tqdm
 
 import os
-os.chdir("../Sup_Fig_S2")
+os.chdir("../Sup_Fig_S1")
 
 RANKS = ["class", "order", "family", "genus", "species"]
 
@@ -33,7 +33,7 @@ for phylum in phyla:
         cmds.append((meta_file, model))
 
 pool = mp.Pool(4)
-for curves, model in tqdm(pool.imap_unordered(call_func, cmds), total=len(cmds), desc='Sup_Fig_S2'):
+for curves, model in tqdm(pool.imap_unordered(call_func, cmds), total=len(cmds), desc='Sup_Fig_S1'):
     auroc = curves['AUROC']
     aupr = curves['AUPR']
 
@@ -63,4 +63,4 @@ df['phylum'] = df['pivot'].apply(lambda x: x.split('.')[1])
 df['rank'] = df['pivot'].apply(lambda x: x.split('.')[2])
 df = df[['base', 'phylum', 'rank', 'AUROC', 'AUPR']]
 
-df.to_csv("Sup_Fig_S2.data.csv", index=False)
+df.to_csv("Sup_Fig_S1.data.csv", index=False)

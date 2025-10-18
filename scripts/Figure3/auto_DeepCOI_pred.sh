@@ -9,7 +9,7 @@ do
 		--model ${DEEPCOI}/models/fine-tuned/DeepCOI-${phylum}.pt \
 		--seq ../../data/${phylum}.test.fasta \
 		--batch_size 4 \
-		--output preds/$DeepCOI-{phylum}.test.npy \
+		--output preds/DeepCOI-${phylum}.test.npy \
 		--save_probs \
 		--mcm
 done

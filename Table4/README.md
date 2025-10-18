@@ -10,7 +10,7 @@ models/
 ../data/  
 ├ realworld/  
 │ ├ labels/  
-│ ├ DS-PBBC{1..4}.fasta
+│ ├ DS-PBBC{1..4}.fasta  
 │ ├ rdp_woDS-PBBC/  
 
 ## How to reproduce DeepCOI results
